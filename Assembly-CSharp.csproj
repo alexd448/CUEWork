@@ -53,9 +53,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BallSpawn.cs" />
+     <Compile Include="Assets\CamSpawn.cs" />
+     <Compile Include="Assets\CamSwing.cs" />
      <Compile Include="Assets\ColorScript.cs" />
      <Compile Include="Assets\GyroMove.cs" />
      <Compile Include="Assets\MatchMovement.cs" />
+     <Compile Include="Assets\SceneControl.cs" />
      <Compile Include="Assets\ScoreText.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/Alex/Documents/Hello World/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -248,9 +252,6 @@
  </Reference>
  <Reference Include="Unity.Locator">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
- </Reference>
- <Reference Include="Assembly-CSharp-firstpass">
- <HintPath>C:/Users/Alex/Documents/Hello World/Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
